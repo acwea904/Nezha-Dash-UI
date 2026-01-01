@@ -7,14 +7,14 @@
 
 // ------------------ 自定义链接配置 ------------------
 window.CustomLinks = JSON.stringify([
-  { link: "https://blog.faiz.hidns.co", name: "Blog", icon: "icon-book" },
+  // { link: "https://blog.faiz.hidns.co", name: "Blog", icon: "icon-book" },
+  // {
+  //   link: "https://github.com/kamanfaiz/Nezha-Dash-UI",
+  //   name: "Github",
+  //   icon: "icon-github",
+  // },
   {
-    link: "https://github.com/kamanfaiz/Nezha-Dash-UI",
-    name: "Github",
-    icon: "icon-github",
-  },
-  {
-    link: "https://uptime.faiz.us.kg",
+    link: "https://kuma.xinxi.pp.ua",
     name: "Uptime",
     icon: "icon-hourglass-start",
   },
@@ -85,3 +85,4 @@ if (document.readyState === 'loading') {
 } else {
   initCustomLinks();
 }
+
