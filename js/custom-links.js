@@ -16,7 +16,7 @@ window.CustomLinks = JSON.stringify([
   {
     link: "https://webssh.xinxi.pp.ua",
     name: "WebSSH",
-    icon: "icon-terminal",
+    icon: "icon-ssh",
   },
   {
     link: "https://kuma.xinxi.pp.ua",
@@ -91,6 +91,7 @@ if (document.readyState === 'loading') {
 } else {
   initCustomLinks();
 }
+
 
 
 
