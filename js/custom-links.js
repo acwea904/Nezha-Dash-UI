@@ -14,10 +14,16 @@ window.CustomLinks = JSON.stringify([
   //   icon: "icon-github",
   // },
   {
+    link: "https://webssh.xinxi.pp.ua",
+    name: "WebSSH Console",
+    icon: "icon-terminal",
+  },
+  {
     link: "https://kuma.xinxi.pp.ua",
     name: "Uptime",
     icon: "icon-hourglass-start",
   },
+
 ]); // 导航栏的自定义链接 (JSON格式), 新增 icon 字段，请确保 icon值为 iconfont.css 中真实存在的 class
 
 // ------------------ 顶部链接图标配置 ------------------
@@ -85,4 +91,5 @@ if (document.readyState === 'loading') {
 } else {
   initCustomLinks();
 }
+
 
