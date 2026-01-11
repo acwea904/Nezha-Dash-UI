@@ -142,7 +142,7 @@ function initVisitorInfo() {
     if (data.country) {
       try {
         // 使用 Intl.DisplayNames 获取国家全称 (英文)
-        countryFullName = new Intl.DisplayNames(["en"], {
+        countryFullName = new Intl.DisplayNames(["zh-Hans"], {
           type: "region",
         }).of(data.country);
       } catch (e) {
@@ -430,3 +430,4 @@ if (document.readyState === 'loading') {
 } else {
   initVisitorInfo();
 }
+
